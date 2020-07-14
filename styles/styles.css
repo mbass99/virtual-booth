@@ -72,7 +72,7 @@ figure,
 figcaption,
 footer,
 header,
-hgroup,
+hgroup, 
 menu,
 nav,
 output,
@@ -151,6 +151,8 @@ html {
 
 /* font-family: 'Old Standard TT', serif; */
 
+/* MOBILE */
+
 .container {
   background-color: white;
   display: grid;
@@ -166,17 +168,30 @@ h1 {
 
 h2 {
   font-family: "Lato", sans-serif;
-  font-size: 2.8rem;
+  font-size: 3rem;
   font-weight: 300;
 }
 
 h3 {
   font-family: "Lato", sans-serif;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 p {
   font-family: "Lato", sans-serif;
-  font-size: 1.8;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1024px) {
+  
 }
